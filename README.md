@@ -51,4 +51,6 @@ Beks is the data analyst of the non-profit organization, Alphabet Soup. Beks nee
      
 
 ## Summary
-overall results of the deep learning model. recommendation for how a different model could solve this classification problem, and explain why
+The overall model has the accuracy rate of 72.5% after optimization. The initial accuracy rate is about 72.6%. Although the rate seems similar, the accuracy rate for each epochs improved quickly for the final model. 
+
+The random forest classifiers can be used for this dataset. First, the random forest classifiers can perform faster than the deep learning model. Second, the data here is tabular. The random forest classifiers performs well on larget tabular dataset and can achieve comparable predictive accuracy.
